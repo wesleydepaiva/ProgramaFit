@@ -49,12 +49,7 @@ i#burguer:hover {
     color: #2b770a;  
 }
 
-.quemsomosmenu { 
-    display: grid;
-    flex-direction: column;
-    background-color: #000000;
-    width: 100%;
-}
+
 
 /* Planos */
 
@@ -94,7 +89,8 @@ i#burguer:hover {
     font-family:fantasy, 'Times New Roman', Times, serif;
     font-size: 30px;
     padding: 0px 0px 5px 0px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+    
 }
 
 .planos a:hover {
@@ -135,6 +131,7 @@ background-color: #1e5c04;
 .quadrado {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: auto;
     border-radius: 20px;
     background-color: #000000;
@@ -160,30 +157,34 @@ background-color: #1e5c04;
     margin: auto;
 }
 
+.quadrado h2{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+    margin: 0;
+}
+
 .quadrado p {
     color: white;
     font-family: sans-serif;
     font-size: 15px;
 }
 
-
-/* Quem Somos */
-.quemsomosmenu h1 {
-    text-align: center;
-    font-size: 45px;
+.quadrado button {
+    background-color: #ff9100;
+    width: 250px;
+    height: 35px;
+    position: center;
+    border-radius: 30px;
+    font-family: fantasy;
+    font-size: 20px;
     color: white;
-    margin-bottom: 10px;
-    margin-top: 10px;
+
 }
 
-.quemsomosmenu p {
-    color: white;
-    font-family: sans-serif;
-    font-size: 16.5px;
-    text-align: center;
-    margin-left: 30px;
-    margin-right: 30px;
-}
+
 
 
 
