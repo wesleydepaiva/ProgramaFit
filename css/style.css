@@ -82,7 +82,7 @@ i#burguer:hover {
     background-color: #2b770a;
     color: #EDE8E8;
     margin: auto;
-    width: 250px;
+    width: 80%;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -138,7 +138,7 @@ background-color: #1e5c04;
     border-radius: 20px;
     background-color: #000000;
     padding: 0px 15px 10px 15px;
-    width: 400px;
+    width: 80%;
     height: auto;
     margin-bottom: 15px;
 }
@@ -152,7 +152,7 @@ background-color: #1e5c04;
 }
 
 .quadrado img {
-    width: 380px;
+    width: 90%;
     border-radius: 20px;
     padding-left: 10px;
     padding-right: 10px;
