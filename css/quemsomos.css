@@ -3,6 +3,7 @@
     flex-direction: column;
     background-color: #000000;
     width: 100%;
+    justify-content: center;
 }
 
 .quemsomosmenu h1 {
@@ -10,7 +11,7 @@
     font-size: 45px;
     color: white;
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 70px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -21,4 +22,11 @@
     text-align: center;
     margin-left: 30px;
     margin-right: 30px;
+    margin-top: 50px;
 }
+
+.quemsomosmenu img {
+margin: auto;
+margin-top: 110px;
+}
+
