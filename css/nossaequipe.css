@@ -1,0 +1,73 @@
+/* quem somos */
+p{
+    display: none;
+    color: whitesmoke;
+    font: normal 10px 'Roboto Mono', monospace;
+
+}
+
+h1{
+    font: normal 20px sans-serif;
+    text-align: center;
+    align-content: center;
+    display: none;
+    color: whitesmoke;
+
+}
+.foto:hover h1{
+    display: flex;
+
+}
+
+section :hover{
+    border-radius: 7%;
+    border: outset black;
+    background-color: #368016;
+    width: 150px;
+    height: 250px;
+   transition: background 0.5s;
+}
+
+.foto:hover p{
+display: flex;
+
+}
+
+.foto:hover a{
+    display: flex;
+}
+
+a{
+    display: none;
+}
+
+.fotos{
+    display: flex;
+    margin: auto;
+
+}
+.foto{
+
+    flex-direction: column;
+    margin: auto;
+    padding: 6%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 120px;
+    height: 130px;
+
+
+}
+
+h2{
+    font: bolder 100px sans-serif;
+    text-align: center;
+    color: #42a11a;
+}
+h3{
+    font: bolder 40px sans-serif;
+    text-align: center;
+    color: #42a11a;  
+    text-shadow: red;
+}
