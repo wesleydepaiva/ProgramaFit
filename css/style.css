@@ -293,6 +293,10 @@ padding: 5px;
         flex-direction: column;
     }
 
+    .quadrado {
+        width: 400px;
+    }
+
     .dupla {
         display: flex;
         flex-direction: row;
